@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Salesforce">
+  <test thread-count="5" name="Test2">
+	<parameter name="name" value=""></parameter>
+	<parameter name="companyname" value=""></parameter>
+	<parameter name="description" value=""></parameter>
+	
+	<classes>
+      <class name="assignments.week6day2.DynamicParametrization"/>
+    </classes>
+  </test> <!-- Test2 -->
+</suite> <!-- Salesforce -->

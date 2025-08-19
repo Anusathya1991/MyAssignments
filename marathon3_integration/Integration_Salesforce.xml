@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	 <test thread-count="3" name="Test" verbose="5">
+	
+	<parameter name="url" value="https://login.salesforce.com/"></parameter>
+	<parameter name="username" value="vidyar@testleaf.com"></parameter>
+	<parameter name="password" value="Sales@123"></parameter>
+  
+ 
+	
+    <classes>
+      
+   <class name="marathon3_integration.CreateAccount_Integration"/> 
+      <class name="marathon3_integration.EditAccount_Integration"/>
+    <class name="marathon3_integration.DeleteAccount_Integration"/>
+      
+      
+     
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
